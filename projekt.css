@@ -1,0 +1,106 @@
+*{
+  box-sizing: border-box;
+
+}
+
+html, body{
+  font-family: 'Roboto Mono', monospace;
+  margin: 0;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+header{
+  background: black;
+}
+
+footer{
+  background: black;
+}
+
+#logo{
+  height: 125px;
+  margin-left: 15px;
+}
+
+#sc-icon{
+  height: 100px;
+  margin-left: 370px;
+}
+
+#fb-icon{
+  height: 100px;
+  margin-left: 100px;
+}
+
+#yt-icon{
+  height: 100px;
+  margin-left: 100px;
+}
+
+nav a{
+  text-transform: uppercase;
+  transition: 1s all ease;
+}
+
+nav a:hover{
+  color: rgb(205, 207, 210);
+}
+
+
+@media (min-width: 768px){
+
+  #menu{
+    float: right;
+    display: block;
+    margin-top: 65px;
+      }
+
+  #menu li{
+    float: left;
+    margin-right: 40px;
+      }
+
+  #menu li:last-child{
+    margin-right: 100px;
+  }
+
+  nav a{
+    font-size: 24px;
+  }
+
+.social{
+  height: 150px;
+}
+
+.footer-menu{
+  height: 50px;
+}
+
+  #footermenu li{
+    float: left;
+    margin-right: 120px;
+      }
+
+  #title{
+    width: 100%;
+  }
+
+  #footermenu a{
+    font-size: 16px;
+  }
+
+  #footermenu li:first-child{
+    margin-left: 375px;
+  }
+
+}
