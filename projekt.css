@@ -34,26 +34,27 @@ footer{
 
 #sc-icon{
   height: 100px;
-  margin-left: 370px;
-}
+  }
 
 #fb-icon{
   height: 100px;
-  margin-left: 100px;
-}
+  }
 
 #yt-icon{
   height: 100px;
-  margin-left: 100px;
-}
+  }
 
-nav a{
+nav a, footer a{
   text-transform: uppercase;
   transition: 1s all ease;
 }
 
-nav a:hover{
+nav a, footer a:hover{
   color: rgb(205, 207, 210);
+}
+
+#title{
+display: block;
 }
 
 
@@ -78,29 +79,39 @@ nav a:hover{
     font-size: 24px;
   }
 
-.social{
-  height: 150px;
-}
-
-.footer-menu{
-  height: 50px;
-}
-
-  #footermenu li{
-    float: left;
-    margin-right: 120px;
-      }
-
   #title{
     width: 100%;
   }
 
-  #footermenu a{
-    font-size: 16px;
+footer{
+  height: 200px;
+}
+
+footer li{
+  margin: 0 1rem;
+}
+
+footer .footermenu{
+  display: flex;
+  justify-content: center;
   }
 
-  #footermenu li:first-child{
-    margin-left: 375px;
+footer .social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .footermenu{
+    height: 100%;
+  }
+
+  .footermenu li{
+    height: 0;
+  }
+
+  .footermenu ul{
+    align-items: center;
   }
 
 }
