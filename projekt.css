@@ -26,26 +26,34 @@ header{
 }
 
 #logo{
-  height: 125px;
+  height: 75px;
   margin-left: 15px;
 }
 
 #sc-icon{
-  width: 100px;
+  width: 50px;
   }
 
 #fb-icon{
-  width: 100px;
+  width: 50px;
   margin: 10px 0;
   }
 
 #yt-icon{
-  width: 100px;
+  width: 50px;
   }
+
+#menu {
+  margin-left: 15px;
+}
 
 nav a, footer a{
   text-transform: uppercase;
   transition: 1s all ease;
+}
+
+footer a {
+  font-size: .5rem;
 }
 
 nav a:hover, footer a:hover{
@@ -54,8 +62,30 @@ nav a:hover, footer a:hover{
 
 #title{
 display: block;
+width:100%;
 }
 
+.social li{
+  margin: 0 1rem;
+}
+
+.footermenu li{
+  margin: 0 2rem;
+}
+
+footer .social{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100px;
+  }
+
+  footer .footermenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    }
 
 @media (min-width: 768px){
 
@@ -74,6 +104,10 @@ display: block;
     margin-right: 100px;
   }
 
+  #logo{
+    height: 125px;
+  }
+
   nav a{
     font-size: 1.5rem;
   }
@@ -86,31 +120,26 @@ display: block;
     width: 100%;
   }
 
-.social li{
-  margin: 0 2rem;
-}
 
 .footermenu li{
   margin: 0 4rem;
 }
 
-footer .footermenu{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
+  .social li{
+    margin: 0 2rem;
   }
 
-footer .social{
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  height: 100px;
-  }
+  #sc-icon{
+    width: 100px;
+    }
 
-  .footermenu li{
-    height: 0;
-  }
+  #fb-icon{
+    width: 100px;
+    margin: 10px 0;
+    }
 
+  #yt-icon{
+    width: 100px;
+    }
 
 }
