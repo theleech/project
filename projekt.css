@@ -21,13 +21,8 @@ padding: 0;
 }
 
 header{
-  background: black;
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-footer{
-  background: black;
 }
 
 #logo{
@@ -41,7 +36,7 @@ footer{
 
 #fb-icon{
   width: 100px;
-  margin: 10px 0
+  margin: 10px 0;
   }
 
 #yt-icon{
